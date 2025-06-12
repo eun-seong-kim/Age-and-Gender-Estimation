@@ -2,7 +2,9 @@
 This project implements a deep learning model that predicts a person's age and gender from face images, even when the images contain noise.
 
 <br>
+
 ### 📂 Project Structure
+```
 .
 ├── config/
 │   └── config.yaml               # Configuration file for hyperparameters
@@ -19,7 +21,8 @@ This project implements a deep learning model that predicts a person's age and g
 │   └── util.py                   # Utility functions
 │
 ├── main.py                       
-├── trainer.py                 
+└── trainer.py                 
+```
 
 <br>
    
