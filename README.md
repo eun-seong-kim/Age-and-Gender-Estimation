@@ -4,7 +4,7 @@ This project implements a deep learning model that predicts a person's age and g
 <br>
 
 ### 📂 Project Structure
-```
+```text
 .
 ├── config/
 │   └── config.yaml               # Configuration file for hyperparameters
@@ -27,11 +27,15 @@ This project implements a deep learning model that predicts a person's age and g
 <br>
    
 ### Requirement
-- pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
 
 <br>
 
 ### How to run
 Edit config/config.yaml as needed, then run:
-- python main.py
+```bash
+python main.py
+```
 The script will automatically execute training, testing, or inference based on the mode field in config.yaml.
