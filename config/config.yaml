@@ -1,0 +1,19 @@
+img_size: 224
+batch_size: 64
+
+lr: 2.0e-3
+
+dropout_rate: 0.25
+l2_reg_lambda: 1.0e-5
+
+random_seed: 42
+max_epochs: 50
+early_stopping_patience: 5
+
+mode: 'train' # trian/test/inference
+model_path: './runs/best.pth'
+
+data:
+  train_data: './dataset/task_train_info.csv'
+  validation_data: './dataset/task_valid_info.csv'
+  test_data: './dataset/task_test_info.csv'
